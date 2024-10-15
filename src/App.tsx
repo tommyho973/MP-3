@@ -14,8 +14,6 @@ import {
   createBrowserRouter,
   Route,
   Routes,
-  RouteProvider,
-  Router,
   RouterProvider,
 } from "react-router-dom";
 
