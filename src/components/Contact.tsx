@@ -9,6 +9,10 @@ const ContactList = styled.ul`
 
 const ListItem = styled.li`
   margin: 2%;
+  background-color: #e1e5f2;
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  padding: 2%;
 `;
 
 const StyledLink = styled.a`

@@ -20,14 +20,22 @@ import {
 const MainContent = styled.div`
   display: flex;
   flex-direction: row;
+  margin: 0;
+  min-height: 83vh;
   @media screen and (max-width: 768px) {
-    display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background-color: #bfdbf7;
   }
+`;
+const MainPage = styled.div`
+  display: flex;
+  flex-direction: column;
 `;
 const Root = () => {
   return (
-    <div>
+    <MainPage>
       <Header />
       <MainContent>
         <Navbar />
@@ -43,7 +51,7 @@ const Root = () => {
         </Routes>
       </MainContent>
       <Footer />
-    </div>
+    </MainPage>
   );
 };
 const router = createBrowserRouter([{ path: "*", Component: Root }]);

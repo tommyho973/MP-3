@@ -13,12 +13,14 @@ const Tablehead = styled.th`
   text-align: left;
   padding: 10px;
   border: 2px solid #022b3a;
+  background-color: #e1e5f2;
 `;
 
 const TD = styled.td`
   padding: 10px;
   border: 2px solid #022b3a;
   text-align: left;
+  background-color: #e1e5f2;
 `;
 export default function Skills() {
   const skillsList = [
